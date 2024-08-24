@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Prime Number Functions Practice</title>
+        <!-- bootstrap cdn -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+            integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body class="p-4">
+        <h1 class="text-center text-danger">Prime Number Functions Practice</h1>
+        <form>
+            <div class="input-group">
+                <input
+                    type="number"
+                    class="form-control"
+                    name="numberInput"
+                    id="numberInput"
+                    placeholder="Enter a number"
+                    oninput="showIsPrime()"
+                />
+            </div>
+        </form>
+        <div class="alert mt-3" role="alert" id="output"></div>
+
+        <!-- local js -->
+        <script src="./js/52-prime-number-functions-practice.js"></script>
+    </body>
+</html>

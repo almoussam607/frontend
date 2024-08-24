@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>VIDEO</title>
+    </head>
+    <body>
+        <h1>VIDEO</h1>
+        <!-- unlike audio tag, after adding src attribute, the first scene in the video will be available in your website with video tags -->
+        <!-- controls - will add default browser controls for your video. They are not customizable, if you want to customize them, you have to create your own container and buttons, then use javascript to trigger video starting, stopping etc. -->
+        <!-- src="./assets/media/video.mp4" -->
+        <!-- autoplay, muted, width, height, loop are all can be used with video, too -->
+        <video
+            width="700"
+            height="390"
+            controls
+            muted
+            poster="./assets/img/pexels-2.jpg"
+        >
+            <source src="./assets/media/video.mp4" type="video/mp4" />
+            <source src="./assets/media/video.mp4" type="video/mp4" />
+            Your browser does not support the video element.
+        </video>
+    </body>
+</html>

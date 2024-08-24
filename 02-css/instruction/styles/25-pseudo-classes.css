@@ -1,0 +1,57 @@
+.home-link {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+/* FOCUS */
+
+.home-link:focus {
+    background-color: greenyellow;
+    color: black;
+}
+
+/* CHECKED */
+
+#hobbies:checked + label {
+    background-color: green;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+/* FIRST AND LAST TYPE */
+
+.list li:first-child {
+    color: red;
+}
+
+.list li:last-child {
+    color: blue;
+}
+
+/* FIRST AND LAST OF TYPE */
+
+.list li:last-of-type {
+    color: green;
+}
+
+.list li:first-of-type {
+    color: rgb(255, 68, 0);
+}
+
+/* NTH CHILD */
+
+.list2 li:nth-child(odd) {
+    color: blue;
+}
+
+.list2 li:nth-child(even) {
+    color: green;
+}
+
+.list2 li:nth-child(6) {
+    color: red;
+}

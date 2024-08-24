@@ -1,0 +1,23 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* ul li {
+    display: inline-block;
+} */
+
+ul a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 4px 20px;
+    background-color: gainsboro;
+    margin-right: 4px;
+}
+
+ul a:hover {
+    background-color: lightgreen;
+}

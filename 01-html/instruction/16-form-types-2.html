@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form Types 2</title>
+    </head>
+    <body>
+        <h1>Form Types 2</h1>
+        <form method="get">
+            <!-- by default if you don't give any value to checkboxes or radio buttons, they will get value equal to "on" if they are selected -->
+            <!-- When you send them, they will gathered under a string, so you can manipulate it to send to the enpoint later -->
+            <!-- CHECKBOX -->
+            <!-- checkboxes allow you to select more than one options -->
+            <input type="checkbox" name="terms" />
+            <br />
+            <br />
+            <!-- Grouping -->
+            <input
+                type="checkbox"
+                name="hobbies"
+                id="playingGuitar"
+                value="Playing Guitar"
+            />
+            <label for="playingGuitar">Playing Guitar</label>
+            <br />
+            <input
+                type="checkbox"
+                name="hobbies"
+                id="swimming"
+                value="Swimming"
+            />
+            <label for="swimming">Swimming</label>
+            <br />
+            <input
+                type="checkbox"
+                name="hobbies"
+                id="football"
+                value="Football"
+            />
+            <label for="football">Football</label>
+
+            <br />
+            <br />
+            <!-- RADIO BUTTONS -->
+            <!-- radio buttons only allows you to select one between two or one among many other options -->
+            <input type="radio" name="gender" id="female" value="female" />
+            <label for="female">Female</label>
+            <br />
+            <input type="radio" name="gender" id="male" value="male" />
+            <label for="male">Male</label>
+            <br />
+            <br />
+            <!-- FILE INPUT TYPE -->
+            <input type="file" name="image" id="image" />
+            <label for="image">Select An Image</label>
+            <br />
+            <br />
+            <!-- COLOR INPUT TYPE -->
+            <input type="color" name="color" id="color" />
+            <label for="color">Select a color</label>
+            <br />
+            <br />
+            <!-- RANGE INPUT TYPE -->
+            <input type="range" name="range" id="range" />
+            <label for="range">Choose your range</label>
+            <br />
+            <br />
+            <!-- DATE TYPE -->
+            <input type="date" name="birthDate" id="birthDate" />
+            <label for="birthDate">Select Your Birthday</label>
+            <br />
+            <br />
+            <!-- TIME -->
+            <input type="time" id="meetingTime" name="meetingTime" />
+            <label for="meetingTime">Select Meeting Starting Hour</label>
+            <br />
+            <br />
+            <!-- WEEK -->
+            <input type="week" id="eventWeek" name="eventWeek" />
+            <label for="eventWeek">Select Event Week</label>
+            <br />
+            <br />
+            <!-- MONTH -->
+            <input type="month" id="certificateMonth" name="certificateMonth" />
+            <label for="certificateMonth"
+                >Select The Month You Get This Certificate</label
+            >
+            <br />
+            <br />
+            <!-- SUBMIT BUTTON -->
+            <br />
+            <br />
+            <button type="submit">SEND THE FORM</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Display</title>
+        <!-- local css -->
+        <link rel="stylesheet" href="./styles/23-display.css" />
+    </head>
+    <body>
+        <h1>Display</h1>
+        <!-- Display => inline -->
+        <!-- padding will work in every side -->
+        <!-- margin will only work in horizontal axis -->
+        <!-- width, height will not work -->
+
+        <a href="#" class="anchor" title="Hello"> Hello </a>
+        <a href="#" class="anchor" title="Hello1"> Hello1 </a>
+        <a href="#" class="anchor" title="Hello1"> Hello1 </a>
+        <a href="#" class="anchor" title="Hello1"> Hello1 </a>
+        <a href="#" class="anchor" title="Hello1"> Hello1 </a>
+        <a href="#" class="anchor" title="Hello1"> Hello1 </a>
+        <a href="#" class="anchor" title="Hello1"> Hello1 </a>
+        <a href="#" class="anchor" title="Hello1"> Hello1 </a>
+        <a href="#" class="anchor" title="Hello1"> Hello1 </a>
+        <a href="#" class="anchor" title="Hello1"> Hello1 </a>
+        <a href="#" class="anchor" title="Hello1"> Hello1 </a>
+        <a href="#" class="anchor" title="Hello1"> Hello1 </a>
+        <a href="#" class="anchor" title="Hello1"> Hello1 </a>
+        <a href="#" class="anchor" title="Hello1"> Hello1 </a>
+        <a href="#" class="anchor" title="Hello1"> Hello1 </a>
+
+        <!-- Display => block -->
+        <!-- because block elements take the whole line, its first dimension is actually by default given, so when there is a content or a heigh property given, it will be shown -->
+        <!-- block elements can get width, heigh, padding, margin without any issue -->
+        <div class="box">Box</div>
+        <div class="box">Box</div>
+        <div class="box">Box</div>
+
+        <!-- Display => inline-block -->
+        <!-- inline-block takes the best features from inline and block elements. It can get width, height, padding, margin properties without any issue -->
+        <!-- inline-block only takes as much space as needed, and it will not hold the line, any other inline-block, or inline element can get right next to it -->
+        <div class="inline-box">Inline Box</div>
+        <div class="inline-box">Inline Box</div>
+        <!-- <a href="#" class="anchor" title="Hello1"> Hello1 </a> -->
+
+        <!-- Display => hidden -->
+        <div class="box hidden">Box</div>
+
+        <!-- Display => flex -->
+        <div class="container">
+            <div class="flex-box box1">Flex Box 1</div>
+            <div class="flex-box box2">Flex Box 2</div>
+            <div class="flex-box box3">Flex Box 3</div>
+        </div>
+    </body>
+</html>

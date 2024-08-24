@@ -1,0 +1,61 @@
+body{
+    background-color: #DEE9FF;
+}
+.register-card .avatar{
+    background-color: #5891FF;
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.register-card.card{
+    border-radius: 30px;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+.register-card form{
+    margin: 50px 10px;
+}
+.register-card form input{
+    border-radius: 2rem !important;
+    border-color: #dee9ff !important;
+}
+.register-card form button{
+    border-radius: 30px;
+}
+.register-card .card-footer{
+    background: none;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.register-card .card-footer h5{
+    text-align: center;
+    color: rgb(127, 127, 127);
+}
+.register-card .card-footer .icons{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0 40px;
+
+}
+.register-card .card-footer .icons a{
+    border: 1px solid blue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+
+}

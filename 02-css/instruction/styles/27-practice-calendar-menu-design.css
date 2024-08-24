@@ -1,0 +1,41 @@
+.navbar {
+    background-color: orange;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline-block;
+}
+
+.menu-item a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu-item a:hover {
+    color: black;
+}
+
+.menu-item * {
+    display: inline-block !important;
+}
+
+.menu-item:last-child::after {
+    content: '▶';
+}
+
+.menu-item:first-child::before {
+    content: '◀';
+}
+
+.menu-item::after {
+    content: ' | ';
+}

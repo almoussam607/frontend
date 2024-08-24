@@ -1,0 +1,59 @@
+.anchor {
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.inline-box {
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    display: flex;
+}
+
+.flex-box {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.box1 {
+    background-color: salmon;
+}
+
+.box2 {
+    background-color: lightblue;
+}
+
+.box3 {
+    background-color: lightgreen;
+}

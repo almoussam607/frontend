@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(54, 54, 54);
+    height: 500px;
+}
+
+.box {
+    background-color: red;
+    height: 100px;
+    width: 400px;
+    /* horizontal alighment => left alignment */
+    /* margin-left: 0;
+    margin-right: auto; */
+    /* margin: 0 auto 0 0; */
+    /* horizontal alighment => right alignment */
+    /* margin-right: 0;
+    margin-left: auto; */
+    margin: 0 0 0 auto;
+    /* horizontal alighment => center alignment */
+    /* margin-right: auto;
+    margin-left: auto; */
+    /* margin: 0 auto; */
+}

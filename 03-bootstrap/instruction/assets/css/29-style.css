@@ -1,0 +1,56 @@
+.search-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:25px;
+}
+.search-bar .logo{
+    color: red;
+    font-size: 2rem;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 1px 3px -1px rgb(75, 75, 75);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar h1{
+    color: rgb(9, 51, 120);
+    font-weight: normal;
+}
+.search-bar .input-group{
+    box-shadow: 0 1px 4px  -1px rgb(75, 75, 75); 
+    border: none !important;
+}
+.search-bar .input-group .input-group-text{
+    background: white;
+    border: none !important;
+    padding-left: 2rem;
+}
+.search-bar .input-group .form-control{
+    border-left: none;
+    padding: 10px  0 10px 15px;
+}
+
+/* Accordion */
+
+.accordion-button:not(.collapsed){
+    background-color: cyan;
+}
+.accordion-item{
+    background-color: blue;
+    color: white;
+}
+
+@media screen and (min-width:768px) {
+    .search-bar{
+        background-image: url(../img/youtube.svg);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+    .search-bar .input-group{
+        width: 500px;
+    }
+}

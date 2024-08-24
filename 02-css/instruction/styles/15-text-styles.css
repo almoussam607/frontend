@@ -1,0 +1,16 @@
+a {
+    /* text-decoration: none; */
+    text-decoration: dotted overline blue;
+    /* text-decoration-line: overline;
+    text-decoration-style: dotted;
+    text-decoration-color: blue; */
+    color: rgb(94, 94, 94);
+}
+
+.text {
+    color: purple;
+    /* font-weight can go between 100-900 */
+    font-weight: bold;
+    text-decoration: wavy underline;
+    font-style: italic;
+}

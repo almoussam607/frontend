@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FORM</title>
+    </head>
+    <body>
+        <h1>FORM</h1>
+        <!-- If a button inside a form is without a type attribute is going to trigger the submitting of the form -->
+        <!-- input types button, submit, reset are working like buttons -->
+        <!-- input type button will not have a default text, you have to give it another attribute called value and whatever you write inside the value attribute will be the text of this button -->
+        <!-- input type submit will have a default button text which is Submit -->
+        <!-- input type reset will have a default button text which is Reset -->
+        <form>
+            <label for="username">Username</label>
+            <!-- value generally used if there is a default information already for the concept. -->
+            <!-- for instance: update profile page -->
+            <input id="username" type="text" value="John Doe" />
+            <!-- <button type="submit" title="Submit Your Form">Submit</button> -->
+            <!-- input type button | submit | reset, has a feature that will allow you to change the text inside the button using value attribute -->
+            <input type="submit" value="Submit Your Form" disabled />
+            <input type="reset" />
+        </form>
+        <!-- LOGIN -->
+        <br />
+        <form method="post" action="users">
+            <label for="username">Username</label>
+            <input
+                id="username"
+                type="text"
+                name="username"
+                placeholder="Enter your username"
+            />
+            <br />
+            <br />
+            <label for="password">Password</label>
+            <input id="password" type="password" name="password" />
+            <br />
+            <br />
+            <input
+                type="submit"
+                title="Login to your account..."
+                value="Login"
+            />
+            <!-- ATTRIBUTES: disabled -->
+            <!-- if the content of the form is not match with the validation, make sure that the button is disabled -->
+            <!-- only after if the form validation is successful, let the user use the button -->
+
+            <!-- where to use it -->
+            <!-- you click on the login button -->
+            <!-- make the button disabled -->
+            <!-- your credentials will be send to the endpoint -->
+            <!-- server after getting this information will validate them -->
+            <!-- if they are correct it will send you back the successful message, otherwise it will be fail message. -->
+            <!-- get rid of the disabled attribute -->
+
+            <!-- placeholder -->
+            <!-- it will be only visible if there are no values inside the input field -->
+        </form>
+    </body>
+</html>
+
+<!-- Form Data -->
+<!-- {
+    "username": 'hello',
+    "password": 'world'
+} -->

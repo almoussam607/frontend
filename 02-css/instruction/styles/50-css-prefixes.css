@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+
+.paragraph {
+    margin-left: 30px;
+    height: 300px;
+    font-size: 20px;
+    background: -webkit-linear-gradient(to right, red, black);
+    background: -moz-linear-gradient(top, rgb(241, 18, 18), black);
+}

@@ -1,0 +1,39 @@
+:root {
+    font-size: 40px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+    /* width: 100% by default */
+    height: 50%;
+    background-color: red;
+}
+
+.message {
+    /* width: 50%; */
+    width: 50vw;
+    height: 25%;
+    background-color: blue;
+}
+
+/* em is a measurement unit to take the information from the parent relative units */
+/* if there are not parent element has a measurement unit added, then the em will take its information from the root */
+
+.font-container {
+    font-size: 40px;
+}
+
+.font-first {
+    font-size: 2rem;
+}
+
+.font-second {
+    font-size: 2em;
+}

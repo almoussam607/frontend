@@ -1,0 +1,6 @@
+:root{
+    --primary: rgb(210, 32, 32);
+}
+.text-primary{
+    color: var(--primary) !important;
+}

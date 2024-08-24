@@ -1,0 +1,15 @@
+.navbar{
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.carousel > .carousel-inner > .carousel-item{
+    /* > is child selector */
+    height: 100vh;
+}
+
+.carousel img{
+    height: 100%;
+    width: 100%;
+    object-position: center center;
+    object-fit: cover;
+}

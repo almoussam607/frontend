@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+}
+
+.image-container {
+    width: 800px;
+    height: 800px;
+    border: 15px solid orangered;
+
+    background-image: url('../images/ai.jpg');
+    /* opacity: 0.2; */
+    background-repeat: no-repeat;
+    /* background-repeat: repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+
+    background-position: center;
+    /* horizontal: left right center */
+    /* vertical: top bottom center */
+    /* background-position: top left */
+    /* background-position: bottom right */
+    /* background-position: center center */
+
+    background-size: cover;
+    /* background-size: contain; */
+    /* background-size: 400px 300px; */
+}
+
+.image-container2 {
+    width: 100%; /* default */
+    height: 300px;
+    border: 10px solid green;
+    margin: 50px 0;
+
+    background-image: url('../images/ai.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}

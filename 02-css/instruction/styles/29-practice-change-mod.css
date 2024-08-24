@@ -1,0 +1,21 @@
+.color-content {
+    width: 200px;
+    height: 75px;
+    background-color: blue;
+    margin: 10px 0;
+}
+
+#changeMod {
+    display: none;
+}
+
+/* if you use + css selector, you must make sure that the order of your element with color-content class name must come immediately after the changeMod id input */
+#changeMod:checked + .color-content {
+    background-color: red;
+}
+
+/* if you use ~ css selector, you must make sure that the order of your element with color-content class name must come after the selector you use, it doesn't have to be immediately after, but still it must come after */
+
+/* #changeMod:checked ~ .color-content {
+    background-color: red;
+} */

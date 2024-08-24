@@ -1,0 +1,10 @@
+.navbar {
+    background-color: rgb(185, 185, 185);
+    text-align: center;
+    width: 200px;
+}
+
+.menu-item.active {
+    background-color: rgb(40, 40, 40);
+    color: white;
+}

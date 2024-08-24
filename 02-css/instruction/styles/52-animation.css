@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 30px 0;
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 3px solid purple;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+    background-color: beige;
+    /* transform: translateX(90vw); */
+    /* transition: transform 2s ease-in-out 2s; */
+    animation: xInfinite 2s ease-in-out infinite;
+}
+
+@keyframes xInfinite {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(90vw);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}

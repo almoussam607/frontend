@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+}
+
+.container {
+    background-color: rgb(74, 74, 74);
+    height: 80vh;
+
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+}
+
+/* 1st LEVEL */
+
+.yellow-box {
+    background-color: yellow;
+    flex-grow: 3;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+}
+
+.beige-box {
+    background-color: beige;
+    flex-grow: 2;
+}
+
+.red-box {
+    background-color: red;
+    flex-grow: 4;
+
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* 2nd LEVEL */
+
+.emerald-box {
+    background-color: rgb(47, 255, 161);
+    flex-grow: 1;
+}
+
+.brown-box {
+    background-color: brown;
+    flex-grow: 3;
+}
+
+.blue-box {
+    background-color: blue;
+    flex-grow: 1;
+    flex-basis: 250px;
+    flex-shrink: 1;
+}

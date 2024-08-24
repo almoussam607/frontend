@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Nullish Coalescing Practice</title>
+    </head>
+    <body>
+        <h1>Nullish Coalescing Practice</h1>
+
+        <form>
+            <div class="input-group">
+                <label for="width"> Width </label>
+                <input
+                    type="number"
+                    name="width"
+                    id="width"
+                    placeholder="Enter the width..."
+                />
+            </div>
+            <div class="input-group">
+                <label for="height"> Height </label>
+                <input
+                    type="number"
+                    name="height"
+                    id="height"
+                    placeholder="Enter the height..."
+                />
+            </div>
+            <button
+                type="button"
+                title="Find Area of Rectangel"
+                onclick="findAreaOfRectangle()"
+            >
+                Find Area
+            </button>
+        </form>
+
+        <p id="output"></p>
+
+        <!-- local js -->
+        <script src="./js/42-nullish-coalescing-practice.js"></script>
+    </body>
+</html>

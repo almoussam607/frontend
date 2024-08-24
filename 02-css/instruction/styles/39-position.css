@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 20px 0;
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+}
+
+.container {
+    height: 700px;
+    background-color: whitesmoke;
+    border: 5px solid black;
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.box1 {
+    background-color: red;
+    /* position => default => static */
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+
+.box2 {
+    background-color: greenyellow;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.box3 {
+    background-color: orange;
+    position: absolute;
+    /* if you don't give axis related properties, it will not that that axis only adjust the location of the element on the touched axis */
+    /* top: 50px; */
+    /* right: 50px; */
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DOM Exercise</title>
+        <!-- local css -->
+        <link rel="stylesheet" href="./styles/26-dom-exercise.css" />
+    </head>
+    <body>
+        <h1>DOM Exercise</h1>
+        <form class="form">
+            <div class="input-group">
+                <input
+                    type="number"
+                    name="num1"
+                    id="num1"
+                    class="input"
+                    placeholder="num1"
+                />
+                <input
+                    type="number"
+                    name="num2"
+                    id="num2"
+                    class="input"
+                    placeholder="num2"
+                />
+                <button
+                    type="button"
+                    onclick="addTwoNumbers()"
+                    title="Add"
+                    class="btn-add"
+                >
+                    ADD
+                </button>
+            </div>
+        </form>
+        <p class="output">Result: ...</p>
+
+        <!-- local js -->
+        <script src="./js/26-dom-exercise.js"></script>
+    </body>
+</html>

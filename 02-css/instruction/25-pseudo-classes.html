@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pseudo Classes</title>
+        <!-- local css -->
+        <link rel="stylesheet" href="./styles/25-pseudo-classes.css" />
+    </head>
+    <body>
+        <h1>Pseudo Classes</h1>
+        <!-- FOCUS -->
+        <a class="home-link" href="#" title="Home">Home</a>
+        <a class="home-link" href="#" title="Home">Home</a>
+        <a class="home-link" href="#" title="Home">Home</a>
+        <a class="home-link" href="#" title="Home">Home</a>
+
+        <!-- CHECKED -->
+        <form>
+            <input type="checkbox" id="hobbies" name="hobbies" />
+            <label for="hobbies">Hobbies</label>
+        </form>
+
+        <!-- FIRST, lAST CHILD - FIRST, LAST OF TYPE -->
+        <!-- when we use first-child pseudo class, we have to apply the first-child to the first child element, and only if the element is first-child, that is going to be be seleceted and the styles will apply -->
+        <!-- for the first-child and last-child to work, the html element must be first or last child of its parent, if not, then the style will not appl. -->
+        <!-- This is not related to if it's the last type -->
+        <ul class="list">
+            <a href="">Contact</a>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+            <li>Fourth</li>
+            <a href="">Home</a>
+        </ul>
+
+        <!-- NTH CHILD -->
+        <ul class="list2">
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+            <li>Fourth</li>
+            <li>Fifth</li>
+            <li>Sixth</li>
+            <li>Seventh</li>
+            <li>Eighth</li>
+            <li>Ninth</li>
+            <li>Tenth</li>
+        </ul>
+    </body>
+</html>

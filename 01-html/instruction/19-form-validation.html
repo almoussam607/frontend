@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form Validation</title>
+    </head>
+    <body>
+        <h1>Form Validation</h1>
+        <!-- adding novalidate attribute to form html element, will rule out the default html5 form validation, but you can still do your own validations -->
+        <!-- if you have numbers you should use min and max attributes -->
+        <!-- if you have text you should use minlength and maxlength attributes -->
+        <form>
+            <label for="username">Username</label>
+            <br />
+            <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="johndoe123"
+                required
+            />
+            <br />
+            <br />
+            <!-- <label for="password">Password</label>
+            <br />
+            <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="********"
+                required
+                minlength="8"
+                maxlength="10"
+            />
+            <br />
+            <br /> -->
+            <label for="securityCode">Security Code</label>
+            <br />
+            <input
+                type="number"
+                id="securityCode"
+                name="securityCode"
+                placeholder="1234"
+                required
+                min="1000"
+                max="9999"
+            />
+            <br />
+            <br />
+            <!-- Submit Button -->
+            <input type="submit" />
+        </form>
+    </body>
+</html>

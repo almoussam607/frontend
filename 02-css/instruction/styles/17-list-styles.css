@@ -1,0 +1,23 @@
+/* list style options => decimal, decimal-leading-zero, lower-latin, lower-greek, lower-alpha, upper-latin, upper-greek, upper-alpha, upper-roman, lower-roman, circle, square, disc */
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.ordered-list {
+    list-style-type: square;
+}
+
+.unordered-list {
+    list-style-type: decimal-leading-zero;
+}
+
+.emoji-list {
+    list-style-type: '🙃';
+}
+
+.custom-image-list {
+    list-style-image: url('../images/setting.svg');
+    list-style-position: outside; /* inside */
+}

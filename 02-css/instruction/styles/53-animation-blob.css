@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 30px 0;
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+}
+
+.blob {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    background-color: purple;
+    top: 50%;
+    left: 30%;
+    /* border-radius: 30%; */
+    box-shadow: 0 0 10px 2px;
+    animation: wiggle 5s linear infinite;
+    /* border-radius: 30% 70% 30% 70% / 30% 30% 70% 70%; */
+}
+
+/* ================== ANIMATIONS ================== */
+
+@keyframes wiggle {
+    0% {
+        border-radius: 45% 55% 40% 60% / 40% 65% 35% 60%;
+    }
+    12.5% {
+        border-radius: 37% 63% 70% 30% / 30% 62% 38% 70%;
+    }
+    25% {
+        border-radius: 50% 50% 70% 30% / 52% 62% 38% 48%;
+    }
+    37.5% {
+        border-radius: 33% 67% 18% 82% / 52% 75% 25% 48%;
+    }
+    50% {
+        border-radius: 73% 27% 18% 82% / 52% 32% 68% 48%;
+    }
+    62.5% {
+        border-radius: 73% 27% 74% 26% / 64% 32% 68% 36%;
+    }
+    75% {
+        border-radius: 84% 16% 15% 85% / 55% 79% 21% 45%;
+    }
+    87.5% {
+        border-radius: 12% 88% 69% 31% / 10% 66% 34% 90%;
+    }
+    100% {
+        border-radius: 45% 55% 40% 60% / 40% 65% 35% 60%;
+    }
+}

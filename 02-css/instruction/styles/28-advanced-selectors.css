@@ -1,0 +1,32 @@
+.inner-container .menu-item {
+    color: blue;
+}
+
+.inner-container > .menu-item {
+    color: red;
+}
+
+.outer-container .menu-item {
+    font-size: 40px;
+}
+
+.outer-container > .menu-item {
+    font-size: 20px;
+}
+
+.heading + .menu-item {
+    color: violet;
+}
+
+.menu .menu-item:nth-child(2) {
+    color: green;
+}
+
+.menu .menu-item:first-of-type {
+    color: orange;
+}
+
+.list-paragraph ~ .list-item {
+    color: yellow;
+    background-color: black;
+}

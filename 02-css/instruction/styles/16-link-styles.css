@@ -1,0 +1,23 @@
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: greenyellow;
+}
+
+.hover-anchor:hover {
+    color: blueviolet;
+}
+
+p {
+    color: bisque;
+}
+
+p:hover {
+    color: darkorange;
+}
+
+.active:active {
+    color: black;
+}

@@ -1,0 +1,9 @@
+ul li {
+    list-style-type: decimal;
+    color: red;
+}
+
+nav ul li {
+    list-style-type: upper-roman;
+    color: rgb(136, 0, 255);
+} 

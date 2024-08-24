@@ -1,0 +1,27 @@
+:root {
+    /* you can name variables however you like, only thing you must be careful is starting it with two dashes -- */
+    --xyz: 16px;
+    --clr-red: rgb(255, 0, 0);
+    --clr-violet: rgb(238, 130, 238);
+    --font-semibold: 600;
+}
+
+.heading1 {
+    font-size: var(--xyz);
+    color: var(--clr-red);
+}
+
+.heading2 {
+    font-size: var(--xyz);
+    color: var(--clr-violet);
+}
+
+.paragraph1 {
+    font-size: var(--xyz);
+    font-weight: var(--font-semibold);
+}
+
+.paragraph2 {
+    font-size: var(--xyz);
+    font-weight: var(--font-semibold);
+}

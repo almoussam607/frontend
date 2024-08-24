@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>For Loop Practice</title>
+        <!-- bootstrap cdn -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+            integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body class="p-3">
+        <h1 class="text-center text-danger">For Loop Practice</h1>
+        <form>
+            <div class="input-group">
+                <label for="discount" class="input-group-text">%</label>
+                <input
+                    type="number"
+                    id="discount"
+                    placeholder="Discount Rate..."
+                    name="discount"
+                    class="form-control"
+                />
+                <button
+                    type="button"
+                    class="btn btn-warning"
+                    onclick="applyDiscount()"
+                >
+                    Apply
+                </button>
+            </div>
+        </form>
+
+        <div class="container my-4">
+            <ul class="list-group" id="productList">
+                <li
+                    class="list-group-item d-flex align-items-center justify-content-between"
+                >
+                    Notebook
+
+                    <span class="badge bg-primary">
+                        $
+                        <em>1500</em>
+                    </span>
+                </li>
+                <li
+                    class="list-group-item d-flex align-items-center justify-content-between"
+                >
+                    Monitor
+
+                    <span class="badge bg-primary">
+                        $
+                        <em>500</em>
+                    </span>
+                </li>
+                <li
+                    class="list-group-item d-flex align-items-center justify-content-between"
+                >
+                    Keyboard
+
+                    <span class="badge bg-primary">
+                        $
+                        <em>50</em>
+                    </span>
+                </li>
+                <li
+                    class="list-group-item d-flex align-items-center justify-content-between"
+                >
+                    Mouse
+
+                    <span class="badge bg-primary">
+                        $
+                        <em>80</em>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <!-- local js -->
+        <script src="./js/44-for-loop-practice.js"></script>
+    </body>
+</html>

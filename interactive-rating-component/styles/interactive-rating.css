@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: rgb(36, 34, 34) !important;
+}
+
+.container{
+    padding-top: 10%;
+    
+}
+
+#card{
+    background-color: #202731;
+    width: 22rem;
+    height: 24rem;
+    border-radius: 30px;
+
+    
+}
+
+
+
+#star{
+    display: inline-block;
+    color: orange;
+    border-radius: 48%;
+    background-color: rgb(58, 63, 68);
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    font-size: 10px;
+   
+}
+
+#title{
+    color: white;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-left: 15px;
+
+}
+
+p{
+    color: rgb(199, 193, 193);
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 25px;
+    line-height: 2;
+}
+
+
+.rating{
+    color: rgb(199, 193, 193);
+    margin-top: 20px;
+    
+}
+
+.rating input[type="radio"] {
+    display: none; /* Hide the default radio button */
+}
+
+label{
+    border-radius: 48%;
+    background-color: rgb(58, 63, 68);
+    padding: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    transition: background-color 0.4s ease,  border-color 0.4s ease;
+    border: 2px solid transparent;
+}
+
+.rating input[type="radio"]:checked + label{
+    background-color:  rgb(209, 138, 7);
+}
+    
+
+label:hover {
+      background-color:  rgb(209, 138, 7);
+   
+}
+
+#btn{
+    background-color:  rgb(209, 138, 7) ;
+    margin-top: 28px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 18px;
+    transition: background-color 0.4s ease,  border-color 0.4s ease;
+  
+    
+}
+
+#btn:hover{
+    background-color: orange;
+    box-shadow: 0 0 10px var(--active);
+}
+
+
+.hidden{
+    display: none !important;
+}
+
+
+
+img{
+    opacity: 0.7;
+    width: 60%; 
+    height: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+#ratingDisplay{
+    color:  rgb(209, 138, 7);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #313a46;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 15px;
+}
+
+#backTitle{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#backP{
+    text-align: center;
+    font-size: 12.5px;
+    margin-bottom: 20px;
+}
